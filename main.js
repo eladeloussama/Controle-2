@@ -10,7 +10,7 @@ function valider(){
 
 
     var rgemail = new RegExp('^[^0-9][a-z0-9]{4,}@[a-z]{3,}\.((.ma)|(.com)){1}$','g');
-    var rgpass = new RegExp('^[a-zA-Z]{7,}[1-9]+$','g');
+    var rgpass = new RegExp('^[a-zA-Z]{2,}[1-9]+$','g');
 
     F1.innerHTML='<br>';
 
